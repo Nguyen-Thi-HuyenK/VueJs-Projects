@@ -52,12 +52,12 @@
   
   .generateQuote_next {
     color: #fff;
-    background-color: #28a745;
+    background-color: #EFA010;
     box-shadow: 0 4px 10px 0px rgba(40, 167, 69, 0.3);
   }
   
   .generateQuote_next:hover {
-    background-color: #218838;
+    background-color: #EFA010;
   }
   
   .copyButton {
