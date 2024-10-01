@@ -26,7 +26,7 @@ export default {
 <style>
 /* Navbar styles */
 .navbar {
-  background-color: #007bff;
+  background-color: #19A5E6;
   color: #fff;
   padding: 15px 0;
   text-align: center; 

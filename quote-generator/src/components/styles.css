@@ -57,12 +57,12 @@
   }
   
   .generateQuote_next:hover {
-    background-color: #EFA010;
+    background-color: #E65A19;
   }
   
   .copyButton {
     color: #fff;
-    background-color: #007bff;
+    background-color: #19A5E6;
     box-shadow: 0 4px 10px 0px rgba(0, 123, 255, 0.3);
   }
   
