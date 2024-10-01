@@ -22,13 +22,13 @@
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #007bff;
+    color: black;
   }
   
   .author {
     font-size: 20px;
     font-style: italic;
-    color: #6c757d;
+    color: black;
   }
   
   .quoteBtn {

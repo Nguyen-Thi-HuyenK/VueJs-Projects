@@ -31,20 +31,22 @@
       };
     },
     methods: {
-      async generateQuote() {
-        try {
-          const response = await fetch('https://type.fit/api/quotes');
-          const quoteList = await response.json();
-          const randomIdx = Math.floor(Math.random() * quoteList.length);
-          const quoteText = quoteList[randomIdx].text;
-          const auth = quoteList[randomIdx].author || 'Anonymous';
-  
-          this.quote = quoteText;
-          this.author = '~ ' + auth;
-        } catch (error) {
-          console.error('Error fetching quote:', error);
-        }
-      },
+        async generateQuote() {
+            try {
+                const response = await fetch('http://api.quotable.io/random');
+                if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const quoteData = await response.json();
+                const quoteText = quoteData.content;
+                const auth = quoteData.author || 'Anonymous';
+
+                this.quote = quoteText;
+                this.author = '~ ' + auth;
+            } catch (error) {
+                console.error('Error fetching quote:', error);
+            }
+        },
       copyToClipboard() {
         const textArea = document.createElement('textarea');
         textArea.value = this.quote;
