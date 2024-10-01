@@ -1,0 +1,112 @@
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #333;
+    margin-top: 60px;
+  }
+  
+  .boxSize {
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #d6d9dd;
+  }
+  
+  .quoteText {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .author {
+    font-size: 20px;
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  .quoteBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .generateQuote_next,
+  .copyButton {
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .generateQuote_next {
+    color: #fff;
+    background-color: #28a745;
+    box-shadow: 0 4px 10px 0px rgba(40, 167, 69, 0.3);
+  }
+  
+  .generateQuote_next:hover {
+    background-color: #218838;
+  }
+  
+  .copyButton {
+    color: #fff;
+    background-color: #007bff;
+    box-shadow: 0 4px 10px 0px rgba(0, 123, 255, 0.3);
+  }
+  
+  .copyButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .copyButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 991px) {
+    .boxSize {
+      width: 95%;
+    }
+  
+    .quoteText {
+      font-size: 24px;
+    }
+  
+    .author {
+      font-size: 18px;
+    }
+  
+    .quoteBtn {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .generateQuote_next,
+    .copyButton {
+      font-size: 16px;
+      padding: 10px 16px;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .quoteText {
+      font-size: 20px;
+    }
+  
+    .author {
+      font-size: 16px;
+    }
+  }
