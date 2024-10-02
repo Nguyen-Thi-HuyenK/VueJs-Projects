@@ -30,4 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 #### This is how the app looks like:
 ![Quote generator](https://github.com/Nguyen-Thi-HuyenK/VueJs-Projects/blob/main/quote-generator/src/assets/Screenshot%202024-10-02%20105846.png)
 <br>
-I make this app by following the tutorial https://www.geksforgeeks.org/build-random-quote-generator-using-vuejs/?ref=oin_asr8, with some changes in the styling.
+I make this app by following the tutorial https://www.geeksforgeeks.org/build-random-quote-generator-using-vuejs/?ref=oin_asr8, with some changes in the styling.
