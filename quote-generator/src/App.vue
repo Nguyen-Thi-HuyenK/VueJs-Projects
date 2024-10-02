@@ -2,8 +2,7 @@
   <div id="app">
     <!-- Navbar -->
     <nav class="navbar">
-      <h1 class="navbar-brand">GFG Random 
-          Quote Generator using Vue.js</h1>
+      <h1 class="navbar-brand">Random Quote Generator using Vue.js</h1>
     </nav>
     
     <!-- Quote Generator -->
