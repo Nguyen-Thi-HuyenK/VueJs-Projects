@@ -2,8 +2,8 @@
   <div class="App">
     <header class="App-header">
       <img src=
-"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
-      alt="GeeksforGeeks Logo"
+"@/assets/logo-1.png"
+      alt="Logo"
       class="logo" />
       <h1>Movie Search Platform</h1>
     </header>
@@ -110,7 +110,7 @@ export default {
 }
 
 .App-header {
-  background-color: #333;
+  background-color: black;
   color: white;
   padding: 20px 0;
   display: flex;
