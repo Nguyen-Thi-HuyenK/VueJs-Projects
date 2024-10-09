@@ -5,7 +5,7 @@
 "https://media.geeksforgeeks.org/gfg-gg-logo.svg"
       alt="GeeksforGeeks Logo"
       class="logo" />
-      <h1>Movie Mania</h1>
+      <h1>Movie Search Platform</h1>
     </header>
     <main>
       <MovieSearch @searchInput="searchInput"
