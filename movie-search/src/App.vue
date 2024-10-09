@@ -2,7 +2,7 @@
   <div class="App">
     <header class="App-header">
       <img src=
-"@/assets/logo-1.png"
+      "@/assets/logo-1.png"
       alt="Logo"
       class="logo" />
       <h1>Movie Search Platform</h1>
