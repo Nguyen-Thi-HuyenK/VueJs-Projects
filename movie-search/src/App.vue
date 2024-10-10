@@ -8,8 +8,8 @@
       <h1>Movie Search Platform</h1>
     </header>
     <main>
-      <MovieSearch @searchInput="searchInput"
-                     @search="search" />
+      <MovieSearch @searchInput="searchInput" 
+                     @search="search" /> <!-- Search component -->
       <div class="container">
         <div
           v-for="movie in filteredResults"
@@ -23,7 +23,7 @@
       </div>
       <MovieDetail v-if="selected.Title"
                      :selected="selected" 
-                     @closeDetail="closeDetail" />
+                     @closeDetail="closeDetail" /> <!-- Detail component -->
     </main>
   </div>
 </template>
