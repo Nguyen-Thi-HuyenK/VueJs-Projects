@@ -22,3 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Follow the tutorial from [Build a Movie Search App with VueJS](https://www.geeksforgeeks.org/build-a-movie-app-with-vuejs/?ref=oin_asr2) 
