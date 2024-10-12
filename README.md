@@ -7,3 +7,4 @@
 ![Todo list](https://github.com/Nguyen-Thi-HuyenK/VueJs-Projects/blob/main/todo-list/src/assets/Screenshot%202024-10-01%20133521.png)
 #### 3. [Weight tracker app](https://github.com/Nguyen-Thi-HuyenK/VueJs-Projects/tree/main/weight-tracker-app).
 ![Weight tracker app](https://github.com/Nguyen-Thi-HuyenK/VueJs-Projects/blob/main/weight-tracker-app/src/assets/weight-tracker-app.png)
+
